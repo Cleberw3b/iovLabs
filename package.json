@@ -1,0 +1,29 @@
+{
+  "name": "iovlabs",
+  "version": "0.1.0",
+  "author": "Cleber Oliveira - CleberW3b",
+  "repository": "https://github.com/Cleberw3b/iovLabs.git",
+  "description": "IovLabs programing test.",
+  "main": "dist/init.js",
+  "scripts": {
+    "test:watch": "jest --watch",
+    "test": "jest --runInBand",
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "tsc && node dist/init.js"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.8",
+    "@types/node": "^14.14.20",
+    "dotenv": "^8.2.0",
+    "jest": "^26.2.2",
+    "nodemon": "^2.0.4",
+    "ts-jest": "^26.1.4",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.2"
+  }
+}
